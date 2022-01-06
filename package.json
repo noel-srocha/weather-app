@@ -1,13 +1,13 @@
 {
-  "name": "web-server",
+  "name": "weather-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a basic web server built using Node.js as part of Andrew Mead's Complete Node.js Developer Course on Udemy. It asks for a location (whether it's an address or a city, it's up to you) and it uses geocoding from MapBox's API to receive geographic coordinates to be used by Weather Stack's API to receive the location's current weather. The main objective of this application was to construct this web server using Node.js, so styling was not worked on thoroughly.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Manoel de Souza Rocha Neto <manoelrocha.neto.93@hotmail.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
