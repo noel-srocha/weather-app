@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.status(RESPONSE_SUCCESS).render('about', {
     title: 'What is this app about?',
-    description: 'This site was created by Manoel de Souza Rocha Neto as part of Andrew ead\'s Complete Node.js Developer Course assignment. It uses data from MapBox\'s and Weather Stack\'s respective APIs to get weather data from the location input.',
+    description: 'This site was created by Manoel de Souza Rocha Neto as part of Andrew Mead\'s Complete Node.js Developer Course assignment. It uses data from MapBox\'s and Weather Stack\'s respective APIs to get weather data from the location input.',
     name: 'Manoel de Souza Rocha Neto',
   });
 });
